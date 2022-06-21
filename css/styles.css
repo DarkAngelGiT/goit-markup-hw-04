@@ -66,7 +66,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 
 .visually-hidden {
@@ -183,6 +183,7 @@ body {
   text-align: center;
   background-color: var(--background-color-footer);
   color: var(--primary-white-color);
+  /* background-image: url(''); */
 }
 
 .hero-title {
@@ -243,7 +244,6 @@ body {
 .features-list-title {
   margin-bottom: 10px;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
@@ -310,6 +310,21 @@ body {
   padding-bottom: 30px;
 }
 
+/* CLIENTS */
+
+.clients-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.clients-item {
+  --items: 6;
+}
+
 /* FOOTER */
 .footer {
   padding: 60px 0;
@@ -363,6 +378,14 @@ body {
 .footer-contact-link:hover,
 .footer-contact-link:focus {
   color: var(--accent-color);
+}
+
+.footer-social-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
 }
 
 /*---- Portfolio ----*/
